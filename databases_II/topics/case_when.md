@@ -45,3 +45,7 @@ GROUP BY JobTitle;
 In this example, the CASE WHEN statement applies a 10% bonus to the salary for employees with the job title 'Manager' before calculating the average salary using the AVG() function.
 
 These examples demonstrate how the CASE WHEN clause can be employed in SQL for conditional logic within queries and in conjunction with aggregate functions.
+
+### Exercises:
+
+https://www.w3schools.com/sql/sql_case.asp
