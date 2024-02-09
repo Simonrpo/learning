@@ -53,6 +53,13 @@ Once data profiling has identified issues within a dataset, various data quality
 
 **Continuous Monitoring:** Regularly monitoring data quality metrics and performance indicators to identify and address issues in real-time.
 
+## Some examples for practice:
+
+- https://www.kaggle.com/datasets/rupindersinghrana/database-of-volcanic-eruptions?resource=download
+- https://www.kaggle.com/datasets/itambs/pokemons
+- https://www.kaggle.com/datasets/azraimohamad/coursera-course-data
+- https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia
+- https://www.kaggle.com/datasets/moltean/fruits
 
 ## Conclusion:
 
