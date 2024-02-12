@@ -6,7 +6,7 @@
 
 https://dev.mysql.com/doc/sakila/en/sakila-introduction.html
 
-https://github.com/microsoft/sql-server-samples/tree/master/samples/databases
+![Sakila Database](https://dev.mysql.com/doc/sakila/en/images/sakila-schema.png)
 
 ## NoSQL Databases
 
