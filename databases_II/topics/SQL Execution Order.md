@@ -14,6 +14,10 @@ For the optimizer stage, know more about join methods:
 - https://vladmihalcea.com/hash-join-algorithm/
 - https://vladmihalcea.com/merge-join-algorithm/
 
+<img width="735" alt="image" src="https://github.com/Simonrpo/learning/assets/22748272/2c2c763a-afe2-42a3-b48d-c299293b0038">
+
+*Example of nested loop join algorithm execution plan.*
+
 # Order of execution of SQL query clauses:
 
 The execution process of an SQL query follows a logical order, which can be divided into several phases:
