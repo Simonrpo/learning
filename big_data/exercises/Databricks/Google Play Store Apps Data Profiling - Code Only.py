@@ -1,3 +1,5 @@
+########################################################################################################################################################
+
 # Nombre de la base de datos en Databricks
 database_name = "default"
 # Nombre de la tabla que deseas leer
@@ -12,6 +14,7 @@ df.printSchema()
 # Mostrar las primeras filas de la tabla
 display(df)
 
+########################################################################################################################################################
 
 #Análisis y perfilamiento básico de dataset
 from pyspark.sql.functions import col
@@ -35,6 +38,7 @@ for col_name in df.columns:
         print("Estadísticas descriptivas:")
         df.describe([col_name]).show()
 
+########################################################################################################################################################
 
 # Creación de nueva columna "Last Updated Date" con formato de fecha
 from pyspark.sql.functions import col, to_date
@@ -50,3 +54,6 @@ df = df.drop("Last Updated")
 
 # 5. Imprimir resultado usando display
 display(df)
+
+
+########################################################################################################################################################
