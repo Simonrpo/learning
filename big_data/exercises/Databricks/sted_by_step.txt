@@ -1,8 +1,13 @@
-from pyspark.sql.functions import split, col
+%md
 
-# Dividir la cadena en una lista de valores, utilizando la función split y utilizando la "," como separador
-# Posteriormente, nos quedamos con el primer valor [0] de la lista generada
-# Este valor lo agregamos a la Columna "MainGenre"
-df = df.withColumn("MainGenre", split(col("Genre"), ",")[0])
+#### 3.2 Columna "duration" (Duración)
 
-display(df)
+Hemos identificado que la columna "duration" contiene un error de calidad de datos bastante frecuente.
+
+Indica un valor numérico acompañado de caracteres alfanuméricos de unidad de medida. En este caso siendo "min" la unidad de medida para medir la duración.
+
+Asumiendo que "min" es una constante, debemos dejar en este campo solo valores numéricos y los espacios y caracteres adicionales como "min" se deben eliminar.
+
+Si encontramos valores nulos en esta columna, vamos a transformarlos a 0.
+
+Todo esto debe aplicarse sobre la misma columna "duration".
