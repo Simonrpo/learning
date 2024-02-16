@@ -1,9 +1,8 @@
-%md
+from pyspark.sql.functions import split, col
 
-#### 3.1 Columna "genre" (Género)
+# Dividir la cadena en una lista de valores, utilizando la función split y utilizando la "," como separador
+# Posteriormente, nos quedamos con el primer valor [0] de la lista generada
+# Este valor lo agregamos a la Columna "MainGenre"
+df = df.withColumn("MainGenre", split(col("Genre"), ",")[0])
 
-Hemos evidenciado que la columna "Genre" tiene diferentes valores. Para facilidad de un análisis posterior, vamos a hacer una transformación a partir de este campo.
-
-La transformación implica que solo vamos a dejar el primer valor de esta columna, asumiendo que es su género principal.
-
-*La columna Genre, debe mantener su valor original.*
+display(df)
