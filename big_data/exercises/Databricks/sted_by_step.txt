@@ -1,13 +1,10 @@
-%md
+from pyspark.sql.functions import regexp_replace, when
 
-#### 3.2 Columna "duration" (Duración)
+# Limpiar la columna "duration" eliminando caracteres no numéricos y convirtiendo valores nulos a 0
+# Usaremos la expresión regular [^0-9] para indicar que todo lo que no sean números, sea reemplazado por ""
+# La función when nos permite expresar que siempre que el valor sea = "", se lleve un 0, y en cualquier otro caso, se deje el mismo valor de la columna
+# Finalmente usamos la función cast para convertir a Integer el DateType de la columna duration 
+df = df.withColumn("duration", regexp_replace("duration", "[^0-9]", ""))
+df = df.withColumn("duration", when(df["duration"].isNull() , 0).otherwise(df["duration"]).cast("int"))
 
-Hemos identificado que la columna "duration" contiene un error de calidad de datos bastante frecuente.
-
-Indica un valor numérico acompañado de caracteres alfanuméricos de unidad de medida. En este caso siendo "min" la unidad de medida para medir la duración.
-
-Asumiendo que "min" es una constante, debemos dejar en este campo solo valores numéricos y los espacios y caracteres adicionales como "min" se deben eliminar.
-
-Si encontramos valores nulos en esta columna, vamos a transformarlos a 0.
-
-Todo esto debe aplicarse sobre la misma columna "duration".
+display(df)
