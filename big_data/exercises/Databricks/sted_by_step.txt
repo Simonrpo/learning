@@ -1,10 +1,11 @@
-from pyspark.sql.functions import regexp_replace, when
+%md
 
-# Limpiar la columna "duration" eliminando caracteres no numéricos y convirtiendo valores nulos a 0
-# Usaremos la expresión regular [^0-9] para indicar que todo lo que no sean números, sea reemplazado por ""
-# La función when nos permite expresar que siempre que el valor sea = "", se lleve un 0, y en cualquier otro caso, se deje el mismo valor de la columna
-# Finalmente usamos la función cast para convertir a Integer el DateType de la columna duration 
-df = df.withColumn("duration", regexp_replace("duration", "[^0-9]", ""))
-df = df.withColumn("duration", when(df["duration"].isNull() , 0).otherwise(df["duration"]).cast("int"))
+#### 3.3 Columna "rating" (Calificación)
 
-display(df)
+Hemos identificado que la columna "rating" contiene valores nulos.
+
+Para esta ocación podríamos cambiar los nulos por 0.
+
+Sin embargo, como queremos utilizar esta columna más adelante, podemos simplemente eliminar estos registros con rating == 0.
+
+Dejaremos nuestro dataset sin registros con rating null para evitar outliers e información desbalanceada.
