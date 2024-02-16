@@ -1,4 +1,3 @@
 %md
-# Netflix popular movies dataset
 
-https://www.kaggle.com/datasets/narayan63/netflix-popular-movies-dataset
+## *1. Lectura de datos*
