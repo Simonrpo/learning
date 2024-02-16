@@ -1,3 +1,10 @@
-%md
+# Nombre de la base de datos en Databricks
+database_name = "default"
+# Nombre de la tabla que deseas leer
+table_name = "netflix"
 
-## *1. Lectura de datos*
+# Leer la tabla en un DataFrame de Spark
+df = spark.table(f"{database_name}.{table_name}")
+
+# Mostrar las primeras filas de la tabla
+display(df)
