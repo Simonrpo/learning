@@ -1,11 +1,4 @@
-%md
+# En celdas de código anteriores, hemos importado funciones como when y por ende no hace falta importarlas nuevamente
+df = df.filter(df["rating"].isNotNull())
 
-#### 3.3 Columna "rating" (Calificación)
-
-Hemos identificado que la columna "rating" contiene valores nulos.
-
-Para esta ocación podríamos cambiar los nulos por 0.
-
-Sin embargo, como queremos utilizar esta columna más adelante, podemos simplemente eliminar estos registros con rating == 0.
-
-Dejaremos nuestro dataset sin registros con rating null para evitar outliers e información desbalanceada.
+display(df)
