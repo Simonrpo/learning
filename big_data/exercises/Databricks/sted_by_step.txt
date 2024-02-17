@@ -1,1 +1,5 @@
-df.write.mode("overwrite").saveAsTable("default.netflix_refined")
+%sql
+
+Select
+*
+from default.netflix_refined
