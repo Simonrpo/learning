@@ -1,5 +1,8 @@
 %sql
 
-Select
-*
-from default.netflix_refined
+SELECT
+t1.MainGenre,
+round(avg(t1.rating),2) as Promedio
+FROM default.netflix_refined t1
+GROUP BY t1.MainGenre
+order by 2 DESC
