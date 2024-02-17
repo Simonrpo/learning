@@ -1,4 +1,11 @@
-# En celdas de código anteriores, hemos importado funciones como when y por ende no hace falta importarlas nuevamente
-df = df.filter(df["rating"].isNotNull())
+%md
 
-display(df)
+### *A nivel de calidad de datos podemos seguir implementando transformaciones, sin embargo para avanzar con un poco más de ejericios, vamos a dejar nuestro set de datos aquí*
+
+## *4. Creación de tabla refinada*
+
+A este punto, hemos refinado nuestros datos aplicando diferentes transformaciones orientadas a calidad de datos.
+
+Sin embargo, todo lo hemos aplicado a un objeto de tipo DATAFRAME.
+
+A continuación, crearemos una tabla que se almacenará en el metastore de Databricks y la llamaremos "netflix_refined", indicando así que es la tabla de contenido de netflix ya refinada.
