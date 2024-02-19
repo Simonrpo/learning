@@ -99,3 +99,12 @@ Data Visualization Specialists specialize in transforming complex data into visu
 *Technical Skills: Data visualization tools (D3.js, Tableau), design principles.*
 
 *Soft Skills: Creativity, storytelling, attention to user experience.*
+
+
+## Some images that describes the differents roles:
+
+![Radar roles](https://images.squarespace-cdn.com/content/v1/61fd85d490d950673294e700/1646607122183-FWTXD6D0P38XJGXE0N5X/Radar.png)
+
+![Radar roles II](https://media.licdn.com/dms/image/D4D12AQFewpFOF8Ml8A/article-cover_image-shrink_720_1280/0/1690099394111?e=2147483647&v=beta&t=YCAHPOdOTZTSh3_aAESBj0_2qPK8dLzZBIFRcWOf08Y)
+
+![Conjuntion of roles](https://miro.medium.com/v2/resize:fit:1400/1*JtGp8bh-ZPIqLKGLkwie_A.png)
