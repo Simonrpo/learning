@@ -16,3 +16,10 @@ https://www.kaggle.com/datasets/juanumusic/countries-iso-codes
 SUSCRIPCIONES NETFLIX POR PAIS
 
 https://www.kaggle.com/datasets/prasertk/netflix-subscription-price-in-different-countries
+
+
+select
+`Alpha-2 code`,
+`Alpha-3 code`,
+`English short name lower case`
+from default.wikipedia_iso_country_codes_csv;
