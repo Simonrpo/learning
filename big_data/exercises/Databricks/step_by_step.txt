@@ -1,4 +1,18 @@
 import matplotlib.pyplot as plt
 import pandas as pd
 
+DATASET POBLACION MUNDIAL POR PAIS Y CIUDAD
+
 https://www.kaggle.com/datasets/iamsouravbanerjee/world-population-dataset
+
+DATASET MEDALLAS OLIMPICAS POR PAIS
+
+https://www.kaggle.com/datasets/surajjha101/countries-olympics-medals-since-1896
+
+CODIGOS ISO POR PAIS 3166
+
+https://www.kaggle.com/datasets/juanumusic/countries-iso-codes
+
+SUSCRIPCIONES NETFLIX POR PAIS
+
+https://www.kaggle.com/datasets/prasertk/netflix-subscription-price-in-different-countries
