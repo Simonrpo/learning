@@ -46,3 +46,13 @@ t1.Continent,
 t1.`Country/Territory`,
 rank() over(partition by t1.Continent order by t1.`2022 Population` desc) as RankingContinente
 from default.world_population_1_csv t1;
+
+
+
+select
+t1.Continent,
+sum(t1.`2022 Population`) SumPob2022
+from default.world_population_1_csv t1
+group by t1.Continent
+having sum(t1.`2022 Population`) >= 600296136
+order by 2 desc;
