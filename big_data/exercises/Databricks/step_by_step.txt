@@ -23,3 +23,18 @@ select
 `Alpha-3 code`,
 `English short name lower case`
 from default.wikipedia_iso_country_codes_csv;
+
+
+select
+t2.CoIso2,
+t2.CoIso3,
+t1.*
+from default.netflix_price_in_different_countries_csv t1
+left join (
+select
+`Alpha-2 code` CoIso2,
+`Alpha-3 code` CoIso3,
+`English short name lower case` NombrePais
+from default.wikipedia_iso_country_codes_csv
+) t2
+on upper(trim(t1.Country)) = upper(trim(t2.NombrePais));
