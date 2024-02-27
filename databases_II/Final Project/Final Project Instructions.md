@@ -26,8 +26,8 @@
 3. Presentation in English (Attempt 1).
 4. Presentation in Spanish (Attempt 2).
 5. Two dates for the presentation:
-  - March 13 - Group 1
-  - March 15 - Group 2
+  - March 18 - Group 1
+  - March 20 - Group 2
 
 #### Now, let's randomly select the day on which you will present the final project defense using what we have learned
 
