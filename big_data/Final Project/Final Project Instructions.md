@@ -72,3 +72,25 @@ SELECT
 FROM
     EstudiantesNumerados;
 ```
+
++-----------------------------------------+-----------+
+| NombreEstudiante                        | DiaExamen |
++-----------------------------------------+-----------+
+| juan.bustamantes@comunidad.iush.edu.co  | March 22  |
+| juan.delaossa@comunidad.iush.edu.co     | March 20  |
+| ana.escobarb@comunidad.iush.edu.co      | March 22  |
+| juan.garciame@comunidad.iush.edu.co     | March 20  |
+| juan.gaviriagi@comunidad.iush.edu.co    | March 22  |
+| isabela.lopezc@comunidad.iush.edu.co    | March 20  |
+| sebastian.zapataz@comunidad.iush.edu.co | March 22  |
+| pablo.marine@comunidad.iush.edu.co      | March 20  |
+| diego.salazarc@comunidad.iush.edu.co    | March 22  |
+| johan.gonzalezg@comunidad.iush.edu.co   | March 20  |
+| johan.davidb@comunidad.iush.edu.co      | March 22  |
+| wilmar.agudeloy@comunidad.iush.edu.co   | March 20  |
+| simon.velezg@comunidad.iush.edu.co      | March 22  |
+| simon.zapataf@comunidad.iush.edu.co     | March 20  |
+| danilo.zapatam@comunidad.iush.edu.co    | March 22  |
+| maria.valencia@comunidad.iush.edu.co    | March 20  |
+| jose.gomezj@comunidad.iush.edu.co       | March 22  |
++-----------------------------------------+-----------
