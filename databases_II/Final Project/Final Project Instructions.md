@@ -60,3 +60,19 @@ SELECT
 FROM
     EstudiantesNumerados;
 ```
+
+
+NombreEstudiante	DiaExamen
+juan.jaramillov@comunidad.iush.edu.co	March 20
+fabian.hernandezsa@comunidad.iush.edu.co	March 20
+diego.santosp@comunidad.iush.edu.co	March 20
+leidy.henaol@comunidad.iush.edu.co	March 18
+valentina.garciaj@comunidad.iush.edu.co	March 20
+walther.saldarriagag@comunidad.iush.edu.co	March 18
+simon.rodriguezr@comunidad.iush.edu.co	March 20
+daniel.villag@comunidad.iush.edu.co	March 18
+yurany.bedoyac@comunidad.iush.edu.co	March 20
+german.bermudezr@comunidad.iush.edu.co	March 18
+dario.borjag@comunidad.iush.edu.co	March 18
+octavio.moralesg@comunidad.iush.edu.co	March 18
+david.tabaress@comunidad.iush.edu.co	March 18
