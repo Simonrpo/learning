@@ -35,8 +35,8 @@
 - Presentation in English (Attempt 1).
 - Presentation in Spanish (Attempt 2).
 - Two dates for the presentation:
-  - March 13 - Group 1
-  - March 15 - Group 2
+  - March 18 - Group 1
+  - March 20 - Group 2
  
 Now, let's randomly select the day on which you will present the final project defense using what we have learned:
 
@@ -68,7 +68,7 @@ WITH EstudiantesNumerados AS (
 
 SELECT
     NombreEstudiante,
-    CASE WHEN NumeroDeFila % 2 = 0 THEN 'March 13' ELSE 'March 15' END AS DiaExamen
+    CASE WHEN NumeroDeFila % 2 = 0 THEN 'March 20' ELSE 'March 18' END AS DiaExamen
 FROM
     EstudiantesNumerados;
 ```
@@ -76,21 +76,21 @@ FROM
 +-----------------------------------------+-----------+
 | NombreEstudiante                        | DiaExamen |
 +-----------------------------------------+-----------+
-| juan.bustamantes@comunidad.iush.edu.co  | March 22  |
-| juan.delaossa@comunidad.iush.edu.co     | March 20  |
-| ana.escobarb@comunidad.iush.edu.co      | March 22  |
-| juan.garciame@comunidad.iush.edu.co     | March 20  |
-| juan.gaviriagi@comunidad.iush.edu.co    | March 22  |
-| isabela.lopezc@comunidad.iush.edu.co    | March 20  |
-| sebastian.zapataz@comunidad.iush.edu.co | March 22  |
-| pablo.marine@comunidad.iush.edu.co      | March 20  |
-| diego.salazarc@comunidad.iush.edu.co    | March 22  |
-| johan.gonzalezg@comunidad.iush.edu.co   | March 20  |
-| johan.davidb@comunidad.iush.edu.co      | March 22  |
-| wilmar.agudeloy@comunidad.iush.edu.co   | March 20  |
-| simon.velezg@comunidad.iush.edu.co      | March 22  |
-| simon.zapataf@comunidad.iush.edu.co     | March 20  |
-| danilo.zapatam@comunidad.iush.edu.co    | March 22  |
-| maria.valencia@comunidad.iush.edu.co    | March 20  |
-| jose.gomezj@comunidad.iush.edu.co       | March 22  |
+| juan.bustamantes@comunidad.iush.edu.co  | March 20  |
+| juan.delaossa@comunidad.iush.edu.co     | March 18  |
+| ana.escobarb@comunidad.iush.edu.co      | March 20  |
+| juan.garciame@comunidad.iush.edu.co     | March 18  |
+| juan.gaviriagi@comunidad.iush.edu.co    | March 20  |
+| isabela.lopezc@comunidad.iush.edu.co    | March 18  |
+| sebastian.zapataz@comunidad.iush.edu.co | March 20  |
+| pablo.marine@comunidad.iush.edu.co      | March 18  |
+| diego.salazarc@comunidad.iush.edu.co    | March 20  |
+| johan.gonzalezg@comunidad.iush.edu.co   | March 18  |
+| johan.davidb@comunidad.iush.edu.co      | March 20  |
+| wilmar.agudeloy@comunidad.iush.edu.co   | March 18  |
+| simon.velezg@comunidad.iush.edu.co      | March 20  |
+| simon.zapataf@comunidad.iush.edu.co     | March 18  |
+| danilo.zapatam@comunidad.iush.edu.co    | March 20  |
+| maria.valencia@comunidad.iush.edu.co    | March 18  |
+| jose.gomezj@comunidad.iush.edu.co       | March 20  |
 +-----------------------------------------+-----------
